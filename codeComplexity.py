@@ -17,3 +17,5 @@ def sum_square2(x):
      # to eleminate CPU differences
 # 2)Why imput size is important ?
     # because we use input size in Big-O
+
+    
