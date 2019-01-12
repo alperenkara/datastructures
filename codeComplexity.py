@@ -13,4 +13,7 @@ def sum_square2(x):
     return (x*(x+1)*(2*x+1))/6
 
 # Big O Notation
-
+# 1)Why we use Big-O rather then Runtime ?
+     # to eleminate CPU differences
+# 2)Why imput size is important ?
+    # because we use input size in Big-O
