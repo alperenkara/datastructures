@@ -36,3 +36,30 @@ def deneme2(**kwargs):
         print(each,kwargs[each])
 
 print(deneme2(a='!',b=2,c=3,d=4,e=5))
+
+# Random list
+
+from random import shuffle
+mylist = [1,2,3,4,5,6,7,8,9,10]
+shuffle(mylist)
+print(mylist)
+mylist.sort()
+print(mylist)
+
+# Differences between join() and split()
+
+yeni = "*".join("deneme")
+print(yeni)
+
+first = yeni.split("*")
+print(first)
+
+j = "".join(first)
+print(j)
+
+# Leading ve Trailling whitespace
+
+string = "   alperen   "
+print(string.lstrip()) # leading
+print(string.rstrip()) # trailling 
+print(string.strip())  # both leading and trailling
