@@ -5,3 +5,14 @@ def makeUpperLetter(str):
     return print(string.capwords(str))
 
 makeUpperLetter("i like coding")
+
+def basharfBuyuk(string):
+    # split
+    kelimeler = string.split(" ")
+    # make capitalize 
+    for i in range(0,len(kelimeler)):
+        kelimeler[i] = kelimeler[i][0].upper()+kelimeler[i][1:]
+    # merge and return
+    return print(" ".join(kelimeler))
+
+basharfBuyuk("ali mehmet huseyin")
