@@ -21,6 +21,7 @@ def reverse(m):
     # result = list()
     # start, stop, step
     for i in range(len(m)-1, -1, -1):
+        # m=8, m[7] 6 5 4 3 2 1 0
         result += m[i]
     return result
 
@@ -32,3 +33,5 @@ def reverse2(k):
     return k[::-1]
 
 print(reverse2("alperen"))
+deneme = "1234"
+print(deneme[::-1])
