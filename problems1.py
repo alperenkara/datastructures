@@ -3,7 +3,7 @@
 def convertToMinute(num):
     # find the hour
     # import math
-    # hour = int(math.floor(num/60))
+    # hour = int(math.floor(num/60 ))
     hour = num//60
     # find the minutes
     minutes = num%60
