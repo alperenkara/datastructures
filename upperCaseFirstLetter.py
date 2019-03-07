@@ -13,6 +13,9 @@ def basharfBuyuk(string):
     for i in range(0,len(kelimeler)):
         kelimeler[i] = kelimeler[i][0].upper()+kelimeler[i][1:]
     # merge and return
+    # take list object and put into string variable
     return print(" ".join(kelimeler))
 
 basharfBuyuk("ali mehmet huseyin")
+
+# "some text in here".title()
