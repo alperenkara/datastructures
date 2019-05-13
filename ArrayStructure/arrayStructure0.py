@@ -3,6 +3,8 @@ array = np.array([[1,2,3,4,5],[6,7,8,9,10]])  # vector 1D
 print(array)
 print("Dimension :",array.shape)
 
+array2D = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+print("Array shape {}".format(array2D.shape))
 # dynamic array , we are going to exdend double size of array
 import ctypes
 
